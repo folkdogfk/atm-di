@@ -6,4 +6,8 @@
     <bean id="file" class ="atm.DataSource" >
         <constructor-arg value = "customers.txt"/>
     </bean>
+
+    <bean id="db" class ="atm.DataSource" >
+        <constructor-arg value = "customers.db"/>
+    </bean>
 </beans>
